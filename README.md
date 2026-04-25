@@ -72,13 +72,13 @@ The platform bridges the gap between **citizens, environmental experts, and gove
 
 ```
 ┌─────────────────────────────────────────────────┐
-│              React Frontend (Vite)               │
-│   Home · Report · Dashboard · Map · Leaderboard  │
+│              React Frontend (Vite)              │
+│   Home · Report · Dashboard · Map · Leaderboard │
 └───────────────────┬─────────────────────────────┘
                     │ HTTP / Firestore SDK
 ┌───────────────────▼─────────────────────────────┐
-│           Firebase Cloud Functions               │
-│        (API Layer — Node.js backend)             │
+│           Firebase Cloud Functions              │
+│        (API Layer — Node.js backend)            │
 └──────┬──────────────┬──────────────┬────────────┘
        │              │              │
 ┌──────▼──────┐ ┌─────▼──────┐ ┌───▼────────────┐
@@ -117,9 +117,9 @@ Real-time status update pushed to Citizen ✅
 |:----------------------|:----------:|:---------:|:------------:|
 | Submit Report         |     ✅     |     ✅    |      ✅      |
 | Vote on Proposals     |     ✅     |     ✅    |      —       |
-| Add Expert Feedback   |     —      |     ✅    |      —       |
-| Review Reports        |     —      |     ✅    |      ✅      |
-| Approve / Reject      |     —      |     —     |      ✅      |
+| Add Expert Feedback   |     —      |     ✅     |      —       |
+| Review Reports        |     —      |     ✅     |      ✅     |
+| Approve / Reject      |     —      |     —      |      ✅      |
 | View Dashboard        |     ✅     |     ✅    |      ✅      |
 | View Leaderboard      |     ✅     |     ✅    |      ✅      |
 
