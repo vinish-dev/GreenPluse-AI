@@ -9,7 +9,7 @@ lerna-debug.log*
 
 # Environment files — NEVER commit these
 .env
-.env.*
+.env.development
 !.env.example
 **/node_modules/
 frontend/node_modules/
